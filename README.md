@@ -67,7 +67,7 @@ Common cards(13 Attacks/10 Skills):
 
 Uncommon cards(8 Powers/17 Skills/12 Attacks):
 
-* [3] - Power - Insignia - Gain 4 Strength. Enlighten: Play 10(8) cards in one turn.
+* [3] - Power - Insignia - Gain 4(6) Strength. Enlighten: Play 8 cards in one turn.
 * [2] - Skill - Flood - Gain 10(12) Block. Call 2 Blue Wisps for 2 Turns.
 * [2] - Skill - Hex Cloud - Call a Purple Wisp for 2 turns. All enemies lose 9(12) HP.
 * [1] - Attack - Phosphorus - Deal 6(9) damage. Erupt 3: Call 1 Yellow Wisp for 1 turn.
