@@ -17,7 +17,7 @@ Main Mechanics:
    * Cards that set their cost to 1 for the rest of combat once certain conditions are met.
 
 * Erupt:
-   * Effect Automatically triggers at the start of your turn every X turns. Persists between combats.
+   * Effect Automatically triggers at the start of your turn every X turns. Counter persists between combats.
 
 
 Minor Mechanics:
