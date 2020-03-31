@@ -18,6 +18,12 @@ public abstract class AbstractWisp extends AbstractOrb {
     public void onRemoveOther() {
     }
 
+    public void onMonsterDeath()
+    {
+
+    }
+
+
     public void onEndOfTurn() {
         super.onEndOfTurn();
         --this.baseEvokeAmount;

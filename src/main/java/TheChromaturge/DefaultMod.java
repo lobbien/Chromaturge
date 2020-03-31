@@ -89,6 +89,10 @@ public class DefaultMod implements EditCardsSubscriber, EditRelicsSubscriber, Ed
         return getModID() + "Resources/images/orbs/" + resourcePath;
     }
 
+    public static String makeVfxPath(String resourcePath) {
+        return getModID() + "Resources/images/vfx/" + resourcePath;
+    }
+
     public static String makePowerPath(String resourcePath) {
         return getModID() + "Resources/images/powers/" + resourcePath;
     }

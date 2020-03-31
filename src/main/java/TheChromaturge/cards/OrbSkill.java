@@ -3,7 +3,7 @@ package TheChromaturge.cards;
 import TheChromaturge.DefaultMod;
 import TheChromaturge.actions.CallWispAction;
 import TheChromaturge.characters.TheDefault;
-import TheChromaturge.orbs.RedWisp;
+import TheChromaturge.orbs.*;
 import basemod.abstracts.CustomCard;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.core.CardCrawlGame;
@@ -53,11 +53,12 @@ public class OrbSkill extends CustomCard {
     // Actions the card should do.
     @Override
     public void use(AbstractPlayer p, AbstractMonster m) {
-
         AbstractDungeon.actionManager.addToBottom(new CallWispAction(new RedWisp(3)));
-        AbstractDungeon.actionManager.addToBottom(new CallWispAction(new RedWisp(2)));
+        AbstractDungeon.actionManager.addToBottom(new CallWispAction(new DarkWisp(3)));
+        AbstractDungeon.actionManager.addToBottom(new CallWispAction(new BlueWisp(2)));
+        AbstractDungeon.actionManager.addToBottom(new CallWispAction(new YellowWisp(3)));
+        AbstractDungeon.actionManager.addToBottom(new CallWispAction(new GreenWisp(3)));
         AbstractDungeon.actionManager.addToBottom(new CallWispAction(new RedWisp(3)));
-
     }
 
     // Upgraded stats.

@@ -7,5 +7,39 @@
       " cards.",
       "NL #yEvoke: Deal #b damage to all enemies."
     ]
+  },
+  "TheChromaturge:RedWisp": {
+    "NAME": "Red Wisp",
+    "DESCRIPTION": [
+      "At the end of your turn deal ",
+      " damage to a random enemy."
+    ]
+  },
+  "TheChromaturge:BlueWisp": {
+    "NAME": "Blue Wisp",
+    "DESCRIPTION": [
+      "When called gains Block equal to the number of Wisps you have."
+    ]
+  },
+  "TheChromaturge:YellowWisp": {
+    "NAME": "Yellow Wisp",
+    "DESCRIPTION": [
+      "When you call a Wisp, deal ",
+      " damage to all enemies."
+    ]
+  },
+  "TheChromaturge:GreenWisp": {
+    "NAME": "Green Wisp",
+    "DESCRIPTION": [
+      "When an enemy dies, heal ",
+      " HP."
+    ]
+  },
+  "TheChromaturge:DarkWisp": {
+    "NAME": "Green Wisp",
+    "DESCRIPTION": [
+      "When an enemy dies, heal ",
+      " HP."
+    ]
   }
 }

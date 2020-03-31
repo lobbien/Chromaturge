@@ -16,6 +16,7 @@ public class CallWispAction extends AbstractGameAction {
         if (AbstractDungeon.player.orbs.size() < 15) {
             AbstractDungeon.player.increaseMaxOrbSlots(1, true);
             AbstractDungeon.player.channelOrb(this.wisp);
+            this.wisp.onCall();
             Iterator var1 = AbstractDungeon.player.orbs.iterator();
 
             while(var1.hasNext()) {
