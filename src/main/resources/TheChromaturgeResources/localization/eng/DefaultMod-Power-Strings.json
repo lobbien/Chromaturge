@@ -1,10 +1,15 @@
 {
-"TheChromaturge:CommonPower": {
-        "NAME": "Placeholder Power",
-        "DESCRIPTIONS": ["You applied #b", " keyword.", " keywords."]
-},
-"TheChromaturge:RarePower": {
-        "NAME": "Placeholder Power",
-        "DESCRIPTIONS": ["At the start of your turn, TOUCH #b", " enemy." , " enemies."]
-}
+        "TheChromaturge:CommonPower": {
+                "NAME": "Placeholder Power",
+                "DESCRIPTIONS": ["You applied #b", " keyword.", " keywords."]
+        },
+        "TheChromaturge:RarePower": {
+                 "NAME": "Placeholder Power",
+                "DESCRIPTIONS": ["At the start of your turn, TOUCH #b", " enemy." , " enemies."]
+        },
+        "TheChromaturge:ChromaEnergyNextTurnPower": {
+                "NAME": "Energized",
+                "DESCRIPTIONS": ["At the start of your next turn gain #b", " energy."]
+        }
+
 }

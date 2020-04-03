@@ -32,6 +32,8 @@ public class GreenWisp extends AbstractWisp {
 
     public GreenWisp(int duration) {
         super(duration);
+        this.ID = ORB_ID;
+        this.name = orbString.NAME;
         this.img = IMG;
         this.updateDescription();
     }

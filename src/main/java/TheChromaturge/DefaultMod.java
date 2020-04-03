@@ -235,6 +235,7 @@ public class DefaultMod implements EditCardsSubscriber, EditRelicsSubscriber, Ed
         BaseMod.addCard(new DefaultRareAttack());
         BaseMod.addCard(new DefaultRareSkill());
         BaseMod.addCard(new DefaultRarePower());
+        BaseMod.addCard(new Strike());
         logger.info("Making sure the cards are unlocked.");
         UnlockTracker.unlockCard(OrbSkill.ID);
         UnlockTracker.unlockCard(DefaultSecondMagicNumberSkill.ID);

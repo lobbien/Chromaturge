@@ -36,6 +36,8 @@ public class YellowWisp extends AbstractWisp {
 
     public YellowWisp(int duration) {
         super(duration);
+        this.ID = ORB_ID;
+        this.name = orbString.NAME;
         this.img = IMG;
         this.updateDescription();
     }
@@ -64,7 +66,7 @@ public class YellowWisp extends AbstractWisp {
     @Override
     public void update() {
         super.update();
-        int i = 0;
+        int i = 1;
         if (AbstractDungeon.player.hasPower(MagnifyPower.POWER_ID)) {
             i += AbstractDungeon.player.getPower(MagnifyPower.POWER_ID).amount;
         }

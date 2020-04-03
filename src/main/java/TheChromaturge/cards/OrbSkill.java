@@ -59,6 +59,9 @@ public class OrbSkill extends CustomCard {
         AbstractDungeon.actionManager.addToBottom(new CallWispAction(new YellowWisp(3)));
         AbstractDungeon.actionManager.addToBottom(new CallWispAction(new GreenWisp(3)));
         AbstractDungeon.actionManager.addToBottom(new CallWispAction(new RedWisp(3)));
+        AbstractDungeon.actionManager.addToBottom(new CallWispAction(new PurpleWisp(3)));
+        AbstractDungeon.actionManager.addToBottom(new CallWispAction(new OrangeWisp(4)));
+        AbstractDungeon.actionManager.addToBottom(new CallWispAction(new GrayWisp(4)));
     }
 
     // Upgraded stats.

@@ -36,10 +36,22 @@
     ]
   },
   "TheChromaturge:DarkWisp": {
-    "NAME": "Green Wisp",
+    "NAME": "Dark Wisp",
     "DESCRIPTION": [
-      "When an enemy dies, heal ",
-      " HP."
+      "Removes all other Wisps and gives 1 Strength for each"
+    ]
+  },
+  "TheChromaturge:OrangeWisp": {
+    "NAME": "Orange Wisp",
+    "DESCRIPTION": [
+      "Whenever a Wisp is removed, gain [E] ",
+      " next turn."
+    ]
+  },
+  "TheChromaturge:GrayWisp": {
+    "NAME": "Gray Wisp",
+    "DESCRIPTION": [
+      "No Effect."
     ]
   }
 }

@@ -16,6 +16,7 @@ import org.lwjgl.opengl.GL14;
 public class DarkWisp extends AbstractWisp {
     private static final Texture IMG = TextureLoader.getTexture(DefaultMod.makeOrbPath("base_wisp_2.png"));
     private static final Texture SQUARE = TextureLoader.getTexture(DefaultMod.makeOrbPath("dark_wisp_overlay.png"));
+    private static final Texture SQUARE2 = TextureLoader.getTexture(DefaultMod.makeOrbPath("empty_square.png"));
     private static final Texture FLARES1 = TextureLoader.getTexture(DefaultMod.makeOrbPath("wisp_flares1.png"));
     private static final Texture FLARES2 = TextureLoader.getTexture(DefaultMod.makeOrbPath("wisp_flares2.png"));
     private static final Texture Core = TextureLoader.getTexture(DefaultMod.makeOrbPath("wisp_core.png"));
@@ -30,6 +31,8 @@ public class DarkWisp extends AbstractWisp {
 
     public DarkWisp(int duration) {
         super(duration);
+        this.ID = ORB_ID;
+        this.name = orbString.NAME;
         this.img = IMG;
         this.updateDescription();
     }
@@ -64,6 +67,7 @@ public class DarkWisp extends AbstractWisp {
         DefaultMod.Wispbatch.begin();
         Gdx.gl.glColorMask(false, false, false, true);
         DefaultMod.Wispbatch.setBlendFunction(1, 0);
+        DefaultMod.Wispbatch.draw(SQUARE2, this.cX - 48.0F, this.cY - 48.0F, 48.0F, 48.0F, 96.0F, 96.0F, this.scale, this.scale, 0, 0, 0, 96, 96, false, false);
         DefaultMod.Wispbatch.draw(this.img, this.cX - 48.0F, this.cY - 48.0F + this.bobEffect.y, 48.0F, 48.0F, 96.0F, 96.0F, this.scale, this.scale, -this.angle, 0, 0, 96, 96, false, false);
         DefaultMod.Wispbatch.flush();
         GL14.glBlendEquation(32776);
@@ -72,8 +76,8 @@ public class DarkWisp extends AbstractWisp {
         GL14.glBlendEquation(32774);
         DefaultMod.Wispbatch.setBlendFunction(772, 773);
         Gdx.gl.glColorMask(true, true, true, true);
-        DefaultMod.Wispbatch.setColor(new Color(1.0F, 1.0F, 1.0F, 1.0F));
-        DefaultMod.Wispbatch.draw(SQUARE, this.cX - 48.0F, this.cY - 48.0F + this.bobEffect.y, 48.0F, 48.0F, 96.0F, 96.0F, this.scale, this.scale, -this.angle, 0, 0, 96, 96, false, false);
+        DefaultMod.Wispbatch.setColor(new Color(1.0F, 1.0F, 1.0F, 0.0F));
+        DefaultMod.Wispbatch.draw(SQUARE, this.cX - 48.0F, this.cY - 48.0F, 48.0F, 48.0F, 96.0F, 96.0F, this.scale, this.scale, 0, 0, 0, 96, 96, false, false);
         DefaultMod.Wispbatch.setBlendFunction(770, 771);
         DefaultMod.Wispbatch.setColor(new Color(0.0F, 0.5F, 1.0F, 0.4F));
         DefaultMod.Wispbatch.setBlendFunction(770, 1);

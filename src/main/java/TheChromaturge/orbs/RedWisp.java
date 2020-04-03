@@ -36,6 +36,8 @@ public class RedWisp extends AbstractWisp {
     public static final String[] DESC = orbString.DESCRIPTION;
     public RedWisp(int duration) {
         super(duration);
+        this.ID = ORB_ID;
+        this.name = orbString.NAME;
         this.img = IMG;
         this.updateDescription();
     }
