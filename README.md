@@ -47,7 +47,7 @@ Common cards(13 Attacks/10 Skills):
 * [1] - Skill - Ancients - Call 3(4) Gray Wisps for 3 turns.
 * [2] - Skill - Trinity - Call a Blue, Red and Yellow (Yellow, Red and Blue) Wisp for 3(4) turns. Exhaust.
 * [1] - Attack - Scorch - Deal 4 damage 2 times. Draw 1 card.
-* [3] - Attack - Scratch - Deal 5(6) damage 3 times. Apply 2(3) Weak. Enlighten: Play 8 Attacks.
+* [3] - Attack - Scratch - Deal 5 damage 4(5) times. Enlighten: Play 8 Attacks.
 * [0] - Attack - Flicker - Deal 3 damage. Your next attack deals 3 additional damage.
 * [1] - Skill - Endoplasm - Draw 2 cards. Next turn Call an Orange Wisp for 2(3) turns.
 * [1] - Attack - Sunrise - Gain 5 Block. Call 2 Yellow Wisps for 2 turns.
