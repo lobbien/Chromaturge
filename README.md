@@ -48,7 +48,7 @@ Common cards(13 Attacks/10 Skills):
 * [2] - Skill - Trinity - Call a Blue, Red and Yellow (Yellow, Red and Blue) Wisp for 3(4) turns. Exhaust.
 * [1] - Attack - Scorch - Deal 4 damage 2 times. Draw 1 card.
 * [3] - Attack - Fracture - Deal 7 damage 3(4) times. Enlighten: Play 8 Attacks.
-* [0] - Attack - Flicker - Deal 3 damage. Your next attack deals 3 additional damage.
+* [0] - Attack - Flicker - Deal 3 damage. Your next attack deals 3(6) additional damage.
 * [1] - Skill - Endoplasm - Draw 2 cards. Next turn Call an Orange Wisp for 2(3) turns.
 * [1] - Attack - Sunrise - Gain 5 Block. Call 2 Yellow Wisps for 2 turns.
 * [2] - Attack - Sintering Strike - Deal 7 damage + 2 additional damage for each Eruption this combat.
