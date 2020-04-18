@@ -51,7 +51,7 @@ Common cards(13 Attacks/10 Skills):
 * [0] - Attack - Flicker - Deal 3 damage. Your next attack deals 3(6) additional damage.
 * [1] - Skill - Endoplasm - Draw 2 cards. Next turn Call an Orange Wisp for 2(3) turns.
 * [1] - Attack - Sunrise - Gain 5 Block. Call 2 Yellow Wisps for 2 turns.
-* [2] - Attack - Sintering Strike - Deal 7 damage + 2 additional damage for each Eruption this combat.
+* [2] - Attack - Sintering Strike - Deal 7(11) damage + 2(3) additional damage for each Eruption this combat.
 * [0] - Attack - Moonlight - Deal 4 damage. Call 1 (Gray and 1) Blue Wisp for 2 turns.
 * [1] - Attack - Firebomb - Deal 5(8) damage to ALL enemies. Whenever you are attacked this turn, deal 5(8) damage back.
 * [1] - Skill - Plan Ahead - Retain a card (2 cards) at the end of this turn. Next turn, Fetch a card from your draw pile.
